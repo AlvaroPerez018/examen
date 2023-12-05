@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="estilos.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema de Gestión</title>
+</head>
+<body>
+
+<h2>Iniciar Sesión EMPLEADO</h2>
+<form action="/login" method="post">
+  <label for="usuario">Usuario:</label>
+  <input type="text" id="usuario" name="usuario" required>
+
+  <label for="contrasena">Contraseña:</label>
+  <input type="password" id="contrasena" name="contrasena" required>
+
+  <label for="opcion">Seleccione Su Tipo De Usario:</label>
+  <select id="opcion" name="opcion">
+    <option value="opcion1">Empleados De Mostracion</option>
+    <option value="opcion2">Gerente</option>
+    <option value="opcion3">Administrador</option>
+  </select>
+
+  <button type="submit">Iniciar Sesión</button>
+</form>
+
+<h2>Regrese A Inicio</h2>
+<ul>
+  <li><a href="index.html">Gestion De Reserva</a></li>
+  <li><a href="/contacto.html">CONTACTO</a></li>
+  
+</ul>
+
+<!-- Contenido específico para cada tipo de usuario -->
+<div id="contenido">
+  <!-- Se mostrará el contenido correspondiente al tipo de usuario después del inicio de sesión -->
+</div>
+
+</body>
+</html>

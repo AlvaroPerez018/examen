@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.formulario-contacto-contenedor {
+    max-width: 23.75rem;
+    }
+  
+    .encabezado-habilidades {
+        margin-bottom: 1rem;
+        }
+        .contenedor-habilidad img {
+        padding: 1.25rem;
+        }
+    
+    .icon-card {
+          width: 11.875rem;
+          height: 11.25rem;
+          }
+    
+          .icon-card {
+            background-color: #fff;
+            border-radius: 11px;
+            box-shadow: 0 3px 10px var(--secondary-shadow);
+            padding: 20px;
+            margin: 10px;
+            }
+          .proyectos {
+            background-color: var(--bg-color);
+            padding: 32px 0;
+            margin-top: 2rem;
+            }
+            .foto-de-proyecto {
+            width: 65%;
+            height: 60%;
+            }
+            .contenedor-de-proyectos {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            }
+    
+            .titulo-de-proyectos {
+              text-align: center;
+              margin-bottom: 1rem;
+              }
+    
+              .contenedor-de-proyecto {
+                text-align: center;
+                width: 21.875rem;
+                padding: 1rem;
+                }
+    
+    .contenedor-de-proyecto p {
+      padding: 0.4rem;
+      }
+      .titulo-de-proyecto {
+      margin-bottom: var(--bottom-margin);
+      }
+      .detalles-de-proyecto {
+      margin-bottom: var(--bottom-margin);
+      }
+      .tarjeta-de-proyecto {
+      background-color: #fff;
+      border-radius: 11px;
+      box-shadow: 0 3px 10px var(--primary-shadow);
+      padding: 20px;
+      margin: 10px;
+      }
+      .formulario-contacto-contenedor {
+        max-width: 23.75rem;
+        }
+      
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin-top: 20px;
+        }
+        
+        label {
+            margin-bottom: 8px;
+        }
+        
+        select, input {
+            margin-bottom: 15px;
+            padding: 8px;
+        }
+        
+        button {
+            padding: 10px;
+            background-color: rgb(207, 17, 17);
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: rgb(56, 56, 226);
+        }
+
+      
